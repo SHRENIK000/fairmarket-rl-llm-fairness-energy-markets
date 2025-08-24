@@ -2,6 +2,11 @@
 
 FairMarket-RL is a multi-agent reinforcement learning framework for peer-to-peer (P2P) electricity markets that integrates **fairness shaping** via large language model (LLM) feedback. It enables prosumers (households with solar PV) and consumers to trade energy locally in a continuous double auction while receiving real-time fairness guidance (e.g. discouraging over-reliance on the grid, ensuring equitable market participation, and fair pricing). This public repository provides the high-level interface, configuration schema, and a small **toy demo** of FairMarket-RL for educational and reference purposes. **The core training algorithms, market simulator, and fairness logic are withheld** as this is an ongoing research project.
 
+**Papers in the FairMarket-RL series**
+1. [FairMarket-RL: LLM-Guided Fairness Shaping for Multi-Agent Reinforcement Learning in Peer-to-Peer Markets](https://arxiv.org/abs/2506.22708)
+
+2. Scalable Fairness Shaping with LLM-Guided Multi-Agent Reinforcement Learning for Peer-to-Peer Electricity Markets
+
 ## What's Included vs. What's Withheld
 **Included in this public repo:**
 - **Interface Definitions:** Abstract classes and method signatures reflecting the key components of FairMarket-RL (environment, agents, etc.), allowing users to see how the system is structured without revealing internal logic.
