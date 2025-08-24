@@ -1,0 +1,9 @@
+# Sample configuration for FairMarket-RL toy demo
+environment:
+  n_prosumers: 1        # number of prosumers (sellers) in the toy market
+  n_consumers: 1        # number of consumers (buyers) in the toy market
+  days: 1               # simulate 1 day
+  slots_per_day: 24     # 24 time slots (hours) in a day
+  max_supply_kwh: 5.0   # maximum energy a prosumer can supply in one slot (kWh)
+  max_demand_kwh: 5.0   # maximum energy a consumer needs in one slot (kWh)
+random_seed: 42         # random seed for reproducibility (optional)
