@@ -60,6 +60,10 @@ If you use the ideas or interface from FairMarket-RL in your research, please ci
 
 BibTeX and citation metadata are provided in [CITATION.cff](CITATION.cff).
 
+## Contributors
+
+> See [CONTRIBUTORS.md](./CONTRIBUTORS.md) for the full list and roles.
+
 ## Requesting Full Access
 Qualified researchers can request access to the full private repository (which includes the training code, full environment, and data) by following the instructions in [REQUEST_FULL_ACCESS.md](REQUEST_FULL_ACCESS.md). We typically require signing an NDA or similar agreement for non-commercial research use.
 
